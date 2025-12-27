@@ -1,6 +1,12 @@
+/* BODY */
 @use "./layout/body";
+/* HEADER */
 @use "./layout/header";
+/* MAIN */
 @use "./layout/main";
+/* IMAGENES */
 @use "./components/images";
+/* FOOTER */
 @use "./layout/footer";
+/*ADAPTACIÓN */
 @use "./utilities/mixins";
