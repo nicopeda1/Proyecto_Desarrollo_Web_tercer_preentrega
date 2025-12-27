@@ -1,0 +1,19 @@
+@use "../utilities/variables";
+
+header {
+    text-align: center;
+}
+
+.margen-header {
+    margin-top: 20px;
+}
+
+h1 {
+    margin: 20px 0px;
+    font-size: 60px;
+    font-family: "Expletus Sans", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 400;
+    font-style: normal;
+    color: variables.$negro;
+}

@@ -1,0 +1,14 @@
+@use "../utilities/extends";
+
+.grid-home {
+    @extend %main-grid-home;
+}
+
+.grid-home section {
+    @extend %main-grid-home-section;
+}
+
+h3 {
+    text-align: center;
+    padding: 50px;
+}

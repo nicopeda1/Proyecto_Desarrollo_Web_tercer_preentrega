@@ -1,0 +1,20 @@
+@use "./variables";
+
+%main-grid-home {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+    gap: 20px;
+    width: 90%;
+    margin: 30px auto;
+}
+
+%main-grid-home-section {
+    background: variables.$blanco;
+    padding: 15px;
+    border-radius: 8px;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 10px;
+}
